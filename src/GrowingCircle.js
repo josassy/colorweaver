@@ -1,5 +1,14 @@
 class GrowingCircle {
-  constructor(color, x, y, radius, maxRadius, growRate = 1) {
+  /**
+   * Creates a growing circle that can be drawn on a canvas
+   * @param {String} color the color to draw the circle (css color string)
+   * @param {Number} x center of circle
+   * @param {Number} y center of circle
+   * @param {Number} radius initial starting radius of circle
+   * @param {Number} maxRadius how large the circle should get before it marked for destruction
+   * @param {Number} growRate coefficent that grows the circle
+   */
+  constructor(color, x, y, radius, maxRadius, growRate = 1.02) {
     this.color = color;
     this.x = x;
     this.y = y;
@@ -12,7 +21,7 @@ class GrowingCircle {
    * @return true if radius is still less than maxRadius
    */
   tick() {
-    this.radius *= 1.02;
+    this.radius *= this.growRate;
     // console.log(`radius now ${this.radius}`)
     this.needsRender = true;
     if (this.radius < this.maxRadius) {
