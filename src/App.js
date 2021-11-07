@@ -1,10 +1,10 @@
 import './App.css';
-import BackgroundCanvas from './BackgroundCanvas';
+import MainCanvas from './MainCanvas';
 
 function App() {
   return (
     <div className="App">
-      <BackgroundCanvas id="backgroundCanvas" />
+      <MainCanvas id="backgroundCanvas" />
     </div>
   );
 }
