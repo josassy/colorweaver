@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/colorweaver.josiahlansford.com/static/css/main.c203a2e2.chunk.css",
+    "main.js": "/colorweaver.josiahlansford.com/static/js/main.e70ce1aa.chunk.js",
+    "main.js.map": "/colorweaver.josiahlansford.com/static/js/main.e70ce1aa.chunk.js.map",
+    "runtime-main.js": "/colorweaver.josiahlansford.com/static/js/runtime-main.4b4a5ba3.js",
+    "runtime-main.js.map": "/colorweaver.josiahlansford.com/static/js/runtime-main.4b4a5ba3.js.map",
+    "static/js/2.091290f8.chunk.js": "/colorweaver.josiahlansford.com/static/js/2.091290f8.chunk.js",
+    "static/js/2.091290f8.chunk.js.map": "/colorweaver.josiahlansford.com/static/js/2.091290f8.chunk.js.map",
+    "index.html": "/colorweaver.josiahlansford.com/index.html",
+    "static/css/main.c203a2e2.chunk.css.map": "/colorweaver.josiahlansford.com/static/css/main.c203a2e2.chunk.css.map",
+    "static/js/2.091290f8.chunk.js.LICENSE.txt": "/colorweaver.josiahlansford.com/static/js/2.091290f8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b4a5ba3.js",
+    "static/js/2.091290f8.chunk.js",
+    "static/css/main.c203a2e2.chunk.css",
+    "static/js/main.e70ce1aa.chunk.js"
+  ]
+}
