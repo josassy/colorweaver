@@ -65,9 +65,12 @@ const MainCanvas = ({ ...props }) => {
   useEffect(() => {
     const canvas = canvasRef.current;
     //report the mouse position on click
-    canvas.addEventListener("mousemove", function (evt) {
+    canvas.addEventListener("mousemove", (evt) => {
       const newMousePos = getMousePos(canvas, evt);
       mousePos.current = newMousePos;
+    }, false);
+    canvas.addEventListener("mouseout", (evt) => {
+      mousePos.current = null;
     }, false);
   }, [])
 
